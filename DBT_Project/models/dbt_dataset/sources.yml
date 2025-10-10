@@ -7,3 +7,12 @@ sources:
     tables:
       - name: raw_client
         identifier: raw_client
+        columns:
+          - name: CLIENT_ID
+            description: "Primary Key for Client identification"
+          - name: NAME
+            description: "Client's first name"
+          - name: GENDER
+            description: "Client's gender"
+          - name: Email
+            description: "Client's email"

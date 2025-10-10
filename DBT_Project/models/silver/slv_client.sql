@@ -2,4 +2,4 @@ SELECT
     *,
     CASE WHEN Email is not null then true else false end AS FLAG_EMAIL
 FROM
-    {{ ref('bronze_client') }}
+    {{ ref('brz_client') }}

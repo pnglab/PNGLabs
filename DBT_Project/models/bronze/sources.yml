@@ -1,9 +1,9 @@
 version: 2
 
 models:
-  - name: client
-    identifier: bronze_client
-    description: "client data email anonymized"
+  - name: brz_client
+    alias: client
+    description: "client data"
     columns:
       - name: CLIENT_ID
         description: "Primary Key for Client identification"

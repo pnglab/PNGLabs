@@ -1,8 +1,8 @@
 version: 2
 
 models:
-  - name: client
-    identifier: silver_client
+  - name: slv_client
+    alias: client
     description: "client data"
     columns:
       - name: CLIENT_ID
