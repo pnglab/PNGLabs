@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dbt_dataset
+    database: dbt-demo-474512
+    schema: dbt_dataset
+    tables:
+      - name: raw_client
+        identifier: raw_client
